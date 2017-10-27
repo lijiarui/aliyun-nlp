@@ -93,10 +93,10 @@ INPUT: 帮我订一张北京去上海的飞机票，下周二的
 ```
 
 ## Example
-[酒店](https://help.aliyun.com/document_detail/30454.html?spm=5176.doc30442.2.10.Ngij3y)
-[飞机票](https://help.aliyun.com/document_detail/30451.html?spm=5176.doc30442.2.17.Ngij3y)
-[火车票](https://help.aliyun.com/document_detail/30450.html?spm=5176.doc30442.2.16.Ngij3y)
-[MORE](https://help.aliyun.com/document_detail/30442.html?spm=5176.doc30441.6.570.snaOtE)
+* [酒店](https://help.aliyun.com/document_detail/30454.html?spm=5176.doc30442.2.10.Ngij3y)      
+* [飞机票](https://help.aliyun.com/document_detail/30451.html?spm=5176.doc30442.2.17.Ngij3y)    
+* [火车票](https://help.aliyun.com/document_detail/30450.html?spm=5176.doc30442.2.16.Ngij3y)
+* [MORE](https://help.aliyun.com/document_detail/30442.html?spm=5176.doc30441.6.570.snaOtE)
 
 ## SLOT TYPE
 
@@ -166,11 +166,11 @@ INPUT: 帮我订一张北京去上海的飞机票，下周二的
 ]
 ```
 
-1. query: 明天上午八点之前
+2. query: 明天上午八点之前
 ```json
 ```
 
-1. query: 明天上午九点
+3. query: 明天上午九点
 ```json
 "time":[
   {
@@ -185,7 +185,7 @@ INPUT: 帮我订一张北京去上海的飞机票，下周二的
 ]
 ```
 
-1. query: 明天下午五点之后
+4. query: 明天下午五点之后
 ```json
 "time":[
   {
@@ -200,7 +200,7 @@ INPUT: 帮我订一张北京去上海的飞机票，下周二的
 ]
 ```
 
-1. query: 明天上午七点左右
+5. query: 明天上午七点左右
 ```json
 "time":[
   {
@@ -215,7 +215,7 @@ INPUT: 帮我订一张北京去上海的飞机票，下周二的
 ]
 ```
 
-1. query: 明天上午
+6. query: 明天上午
 ```json
 "time":[
   {
@@ -306,7 +306,7 @@ GEO_INFO定义了一个表示地点的数据结构，地点协议的描述：
 ]
 ```
 
-1. query: 1000到2000元
+2. query: 1000到2000元
 ```json
 "price":[
   {
@@ -320,7 +320,7 @@ GEO_INFO定义了一个表示地点的数据结构，地点协议的描述：
 ]
 ```
 
-1. query: 500米以内
+3. query: 500米以内
 ```json
 "radius":[
   {
